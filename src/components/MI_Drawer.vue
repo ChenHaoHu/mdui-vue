@@ -2,7 +2,7 @@
   <div>
     <div class="mdui-drawer" id="drawer">
       <ul class="mdui-list">
-        <router-link to="/home" class="route">
+        <router-link to="/home" >
           <li class="mdui-list-item mdui-ripple">
             <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
             <div class="mdui-list-item-content">概览</div>
@@ -29,17 +29,17 @@
 </template>
 
 <script>
-import mdui from "mdui";
+// import mdui from "mdui";
 export default {
   name: "MI_Drawer",
   data() {
     return {};
   },
   mounted(){
-    var inst1 = new mdui.Drawer("#drawer");
-    document.getElementById("drawer").addEventListener("click", function() {
-      inst1.toggle();
-    });
+    // var inst1 = new mdui.Drawer("#drawer");
+    // document.getElementById("drawer").addEventListener("click", function() {
+    //   inst1.toggle();
+    // });
   }
 };
 </script>

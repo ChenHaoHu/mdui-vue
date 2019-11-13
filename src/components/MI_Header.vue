@@ -21,7 +21,7 @@
        
       </div>
     </header>
-    <div class="mdui-fab-wrapper" id="fab">
+    <!-- <div class="mdui-fab-wrapper" id="fab">
       <button class="mdui-fab mdui-ripple mdui-color-pink-accent">
         <i class="mdui-icon material-icons">add</i>
         <i class="mdui-icon mdui-fab-opened material-icons">mode_edit</i>
@@ -31,7 +31,7 @@
           <i class="mdui-icon material-icons">assignment</i>
         </button>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

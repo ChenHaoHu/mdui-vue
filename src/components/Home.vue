@@ -1,46 +1,21 @@
 <template>
-  <div class="mdui-container mi_home" >
-  <div class="mdui-panel" mdui-panel>
-  
-  <div class="mdui-panel-item" mdui-panel-item-toggle>
-    <div class="mdui-panel-item-header">
-      <div class="mdui-panel-item-title">Trip name</div>
-      <div class="mdui-panel-item-summary">Carribean cruise</div>
-      <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-    </div>
-    <div class="mdui-panel-item-body">
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-
-    </div>
-  </div>
-  
-
-  
-</div>
+  <div class="mdui-container mi_home">
+ 
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
-  data () {
-    return {
-    }
+  name: "Home",
+  data() {
+    return {};
   },
-  mounted(){
-
-  }
-}
+  mounted() {}
+};
 </script>
 
 <style scoped>
-.mi_home{
-  margin-top: 50px
+.mi_home {
+  margin-top: 50px;
 }
 </style>

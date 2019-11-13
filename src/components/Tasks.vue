@@ -1,16 +1,33 @@
 <template>
   <div class="MI_Tasks">
-      <div class="mdui-card" style="width:300px;margin-top:20px"  v-for="(item,index) in tasks" :key="index">
-        <div class="mdui-card-primary">
-          <div class="mdui-card-primary-title">{{item.title}}</div>
-          <div class="mdui-card-primary-subtitle">{{item.author}}</div>
-          <div class="mdui-card-primary-subtitle" style="color:red">{{item.end}}</div>
+    <div
+      class="mdui-card"
+      style="width:300px;margin-top:20px"
+      v-for="(item,index) in tasks"
+      :key="index"
+    >
+      <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">{{item.title}}</div>
+        <div class="mdui-card-primary-subtitle">{{item.author}}</div>
+        <div class="mdui-card-primary-subtitle" style="color:red">{{item.end}}</div>
+      </div>
+      <div class="mdui-card-content">{{item.desc}}</div>
+      <div class="mdui-card-actions">
+        <router-link to="/task">
+          <button class="mdui-btn mdui-ripple mdui-color-light-blue-900">查看</button>
+        </router-link>
+        <button
+          class="mdui-btn mdui-ripple mdui-color-red"
+          mdui-dialog="{target: '#exampleNoTitle'}"
+        >删除</button>
+        <div class="mdui-dialog" id="exampleNoTitle">
+          <div class="mdui-dialog-content">确定删除？删除不可恢复</div>
+          <div class="mdui-dialog-actions">
+            <button class="mdui-btn mdui-ripple" mdui-dialog-close>cancel</button>
+            <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>ok</button>
+          </div>
         </div>
-        <div class="mdui-card-content">{{item.desc}}</div>
-        <div class="mdui-card-actions">
-          <button class="mdui-btn mdui-ripple mdui-color-light-blue-900" >查看</button>
-          <button class="mdui-btn mdui-ripple mdui-color-red">删除</button>
-        </div>
+      </div>
     </div>
   </div>
 </template>

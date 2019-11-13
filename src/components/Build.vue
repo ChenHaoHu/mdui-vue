@@ -1,5 +1,6 @@
 <template>
   <div class="mdui-container mi_home">
+    <h1 class="doc-title mdui-text-color-theme">创建任务</h1>
     <div class="mdui-textfield">
       <label class="mdui-textfield-label">任务名称</label>
       <input class="mdui-textfield-input" type="text" maxlength="20" />
@@ -18,9 +19,17 @@
 
     
     <div class="mdui-textfield mdui-textfield-floating-label">
-      <label class="mdui-textfield-label">任务有效期</label>
-      <input class="mdui-textfield-input" type="date" maxlength="60" />
+      <label class="mdui-textfield-label">到期日期</label>
+      <input class="mdui-textfield-input" type="date"  />
     </div>
+        
+    <div class="mdui-textfield mdui-textfield-floating-label">
+      <label class="mdui-textfield-label">到期时间</label>
+      <input class="mdui-textfield-input" type="time"  />
+    </div>
+<br><br>
+    <button class="mdui-btn mdui-color-theme-accent mdui-ripple">BUILD</button>
+    <br><br>
   </div>
 </template>
 
