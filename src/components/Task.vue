@@ -9,13 +9,8 @@
       <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
     </div>
     <div class="mdui-panel-item-body">
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-      <p>First content</p>
-
+      <p>First contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst contentFirst content</p>
+   
     </div>
   </div>
   
@@ -27,13 +22,16 @@
 
 <script>
 
+import mdui from 'mdui';
 export default {
-  name: 'Home',
+  name: 'Task',
   data () {
     return {
     }
   },
   mounted(){
+    var inst = new mdui.Panel(selector, options);
+ 
 
   }
 }

@@ -9,22 +9,16 @@
         >
           <i class="mdui-icon material-icons">menu</i>
         </span>
-        <a href="../" class="mdui-typo-headline mdui-hidden-xs">MDUI</a>
-        <a href="./" class="mdui-typo-title">文档</a>
+        <a href="../" class="mdui-typo-headline mdui-hidden-xs">UpLoadTask</a>
+        <a href="./" class="mdui-typo-title">Admin Page</a>
         <div class="mdui-toolbar-spacer"></div>
         <span
           class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
-          mdui-dialog="{target: '#dialog-docs-theme'}"
-          mdui-tooltip="{content: '设置主题'}"
+          mdui-tooltip="{content: 'LOGIN OUT'}"
         >
-          <i class="mdui-icon material-icons">color_lens</i>
+     <i class="mdui-icon material-icons">&#xe8c6;</i>
         </span>
-        <a
-          href="https://github.com/zdhxiong/mdui"
-          target="_blank"
-          class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
-          mdui-tooltip="{content: '查看 Github'}"
-        ></a>
+       
       </div>
     </header>
     <div class="mdui-fab-wrapper" id="fab">

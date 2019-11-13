@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Tasks from '@/components/Tasks'
+import Task from '@/components/Task'
+import Build from '@/components/Build'
 
 Vue.use(Router)
 
@@ -22,6 +24,16 @@ export default new Router({
       path: '/tasks',
       name: 'Tasks',
       component: Tasks
+    },
+    {
+      path: '/task',
+      name: 'Task',
+      component: Task
+    },
+    {
+      path: '/build',
+      name: 'Build',
+      component: Build
     }
   ]
 })
