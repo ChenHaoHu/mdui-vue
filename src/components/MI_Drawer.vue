@@ -19,10 +19,17 @@
             <i
               class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown"
             >view_carousel</i>
-            <div class="mdui-list-item-content">任务</div>
+            <div class="mdui-list-item-content">审批任务</div>
           </li>
         </router-link>
-     
+     <router-link to="/mytask">
+          <li class="mdui-list-item mdui-ripple">
+            <i
+              class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange "
+            >layers</i>
+            <div class="mdui-list-item-content">个人任务</div>
+          </li>
+        </router-link>
       </ul>
     </div>
   </div>

@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Tasks from '@/components/Tasks'
 import Task from '@/components/Task'
 import Build from '@/components/Build'
+import MyTask from '@/components/MyTask'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/build',
       name: 'Build',
       component: Build
+    },
+     {
+      path: '/mytask',
+      name: 'MyTask',
+      component: MyTask
     }
   ]
 })
